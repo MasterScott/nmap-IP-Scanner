@@ -16,13 +16,7 @@ macOS:
 
 Linux Distribution: 
 * Python3
-* Shodan Module
 * nmap
-
-##### Optional: 
-
-*LinuxBrew
-
 
 ### Installing
 
