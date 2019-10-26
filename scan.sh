@@ -47,7 +47,7 @@ until [ "$selection" = "0"]; do
 							clear
 			 			   	echo "                   nmap Port Scanner v0.1                   "
 			 				echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-			 			    echo "Update nmap Port Scanner"
+			 			        echo "Update nmap Port Scanner"
 			 				echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 			 				sleep 2
 			        	    python3 update.py
