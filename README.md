@@ -43,7 +43,7 @@ chmod +x scan.sh
 ### Executing program
 
 ```
-./megascript.sh
+./scan.sh
 ```
 
 ## Help
