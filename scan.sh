@@ -49,31 +49,6 @@ until [ "$selection" = "0"]; do
 		 echo "Open nmap Results"
 		 nano nmap-results.txt
 		 read -p " Press any Key ... ";;
-	   	3 ) clear
-		echo "test1"
-		#echo "Select File with IP Adresses"
-		#echo " test"
-		#printf "Please select folder:\n"
-		#select d in */; do test -n "$d" && break; echo ">>> Invalid Selection"; done
-		#cd "$d"
-		echo "test2"
-		clear
-		dirs="(*/)"
-		read -p "$(
-		        f=0
-		        for dirname in "${dirs[@]}" ; do
-		                echo "$((++f)): $dirname"
-		        done
-		
-		       echo -ne 'Please select a directory > '
-		)" selection
-	
-		selected_dir="${dirs[$((selection-1))]}"
-	
-		echo "You selected '$selected_dir'"
-		sleep 3
-		exit;;
-	 		
 			8 ) 
 			clear
 			echo "nmap Port Scanner v0.1"
@@ -82,8 +57,7 @@ until [ "$selection" = "0"]; do
 			echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 			sleep 2
 			python3 update.py
-			exit;;
-									
+			exit;;				
 				9 ) 
 				chmod +x update-engine.sh
 			    ./update-engine.sh

@@ -16,13 +16,7 @@ macOS:
 
 Linux Distribution: 
 * Python3
-* Shodan Module
 * nmap
-
-##### Optional: 
-
-*LinuxBrew
-
 
 ### Installing
 
@@ -43,7 +37,7 @@ chmod +x scan.sh
 ### Executing program
 
 ```
-./megascript.sh
+./scan.sh
 ```
 
 ## Help
