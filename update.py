@@ -1,2 +1,14 @@
 import os
-os.system("clear && cd .. && rm -rf nmap-IP-Scanner/ &&  git clone https://github.com/0n1cOn3/nmap-IP-Scanner && cd nmap-IP-Scanner/ && chmod +x scan.sh && clear &&figlet Update finished && sleep 3 && echo Script will be restarted now && sleep 5 && ./scan.sh")
+
+os.system("clear")
+os.system("cd ..")
+os.system("rm -rf nmap-IP-Scanner/")
+os.system("git clone https://github.com/0n1cOn3/nmap-IP-Scanner")
+os.system("cd nmap-IP-Scanner/")
+os.system("chmod +x scan.sh")
+os.system("clear")
+os.system("figlet Update finished")
+os.system("sleep 3")
+os.system("echo Script will be restarted now"
+os.system("sleep 5"
+os.system("./scan.sh")
