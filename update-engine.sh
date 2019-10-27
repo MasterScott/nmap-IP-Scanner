@@ -6,8 +6,9 @@ until [ "$selection" = "0"]; do
 	echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 	echo ""
 	echo "1 - Linux"
-	echo "3 - macOS"
+	echo "2 - macOS"
 	echo ""
+	echo "0 - Exit Update"
 	echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
     echo -n "Enter Selection:"
     read selection
@@ -28,21 +29,7 @@ until [ "$selection" = "0"]; do
 	sleep 2
 	./scan.sh
 	exit;;
-		2 )
-		clear
-		echo  " nmap IP Scanner Resulter Core Updater  "
-		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-		echo  "	        Install Requirements           "
-		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-		apk install nmap
-		echo  " nmap IP Scanner Resulter Core Updater  "
-		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-		echo  "				   Finish                  "
-		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-		sleep 2
-		./scan.sh
-		exit;;
-			3 )
+			2 )
 			clear
 			echo  " nmap IP Scanner Resulter Core Updater  "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
@@ -68,7 +55,7 @@ until [ "$selection" = "0"]; do
 			sleep 3
 			./scan.sh
 		    exit;;
-				4 )
+				3 )
 				clear
 				echo  " nmap IP Scanner Resulter Core Updater  "
 				echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
