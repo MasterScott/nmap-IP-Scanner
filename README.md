@@ -29,9 +29,9 @@ sudo apt install git python3 python3-pip nmap
 
 * Automated Installaton:
 
-git clone https://github.com/0n1cOn3/Shodan-IP-Scan-Resulter.git
+git clone https://github.com/0n1cOn3/nmap-IP-Scanner.git
+cd nmap-IP-Scanner
 chmod +x scan.sh
-./
 ```
 
 ### Executing program
