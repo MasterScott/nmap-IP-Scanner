@@ -9,25 +9,22 @@ until [ "$selection" = "0"]; do
 	 echo "Script only for"
 	 echo "test purposes "
 	 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-	 echo   "Github: https://github.com/0n1cOn3/ShodanIPScanResulter"
-	 echo   "Whatsapp: https://cutt.ly/meaORzg "
+	 echo "Github: https://github.com/0n1cOn3/nmap-IP-Scanner"
+	 echo "Whatsapp: https://cutt.ly/meaORzg "
 	 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-     echo "Setup Menu:"
+         echo "Setup Menu:"
 	 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-     echo ""
-	 echo "Choose your current Operating System (OS)"
-	 echo ""
-     echo "1 - Enter the IP Adress"
+         echo "1 - Enter the IP Adress"
 	 echo "2 - Show IP Scan Result"
-
+         echo ""
 	 echo "8 - Update Script"
 	 echo "9 - Update Script Core"
-	 echo ""
-     echo "0 - Exit program"
-     echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-     echo -n "Enter Selection:"
-     read selection
-     echo ""
+         echo ""
+         echo "0 - Exit program"
+         echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
+         echo -n "Enter Selection:"
+         read selection
+         echo ""
  case $selection in
  1 )
 	 clear 
@@ -49,7 +46,7 @@ until [ "$selection" = "0"]; do
 		 echo "Open nmap Results"
 		 nano nmap-results.txt
 		 read -p " Press any Key ... ";;
-			8 ) 
+			3 ) 
 			clear
 			echo "nmap Port Scanner v0.1"
 			echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
@@ -58,11 +55,11 @@ until [ "$selection" = "0"]; do
 			sleep 2
 			python3 update.py
 			exit;;				
-				9 ) 
+				4 ) 
 				chmod +x update-engine.sh
 			    ./update-engine.sh
 				exit;;
 				  0 ) exit;;
-         * ) echo "Please enter 1,2,7,8 or 0 for exit"
+         * ) echo "Please enter 1,2,3,4 or 0 for exit"
      esac
 done
