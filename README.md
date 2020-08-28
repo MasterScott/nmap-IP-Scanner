@@ -13,19 +13,21 @@ macOS:
 * brew (The macOS Homebrew)
 * Python3
 * nmap
+* figlet
 
 Linux Distribution: 
 * Python3
 * nmap
+* figlet
 
 ### Installing
 
 ```
 * macOS:
-brew install git python3 python3-pip nmap
+brew install git python3 python3-pip nmap figlet
 
 * Linux:
-sudo apt install git python3 python3-pip nmap
+sudo apt install git python3 python3-pip nmap figlet
 
 * Automated Installaton:
 
